@@ -1,0 +1,80 @@
+.widget{
+    background-color: rgb(64, 141, 208);
+    width: 300px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    border: solid rgb(111, 0, 255) 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.widget div{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.widget div p{
+    font-family: 'Tilt Neon', cursive;
+    font-size:28px;
+}
+.widget div button{
+    appearance: button;
+    background-color: #4ae887;
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, .15), rgba(255, 255, 255, 0));
+    border: 1px solid #4ae887;
+    border-radius: 1rem;
+    box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0 inset,rgba(46, 54, 80, 0.075) 0 1px 1px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter,sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    margin: 0;
+    padding: .5rem 1rem;
+    text-align: center;
+    text-transform: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;   
+}
+
+
+.widget div button:focus:not(:focus-visible),
+.widget div button:focus {
+  outline: 0;
+}
+
+.widget div button:hover {
+  background-color: #2d9755;
+  border-color: #2d9755;
+}
+
+.widget div button:focus {
+  background-color: #178842;
+  border-color: #178842;
+  box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0 inset, rgba(46, 54, 80, 0.075) 0 1px 1px, rgba(104, 101, 235, 0.5) 0 0 0 .2rem;
+}
+
+.widget div button:active {
+  background-color: #28653f;
+  background-image: none;
+  border-color: #28653f;
+  box-shadow: rgba(46, 54, 80, 0.125) 0 3px 5px inset;
+}
+
+.widget div button:active:focus {
+  box-shadow: rgba(46, 54, 80, 0.125) 0 3px 5px inset, rgba(104, 101, 235, 0.5) 0 0 0 .2rem;
+}
+
+.widget div button:disabled {
+  background-image: none;
+  box-shadow: none;
+  opacity: .65;
+  pointer-events: none;
+}
